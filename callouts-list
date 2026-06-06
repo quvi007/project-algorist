@@ -1,0 +1,27 @@
+Here are the built-in callout types in Quartz (inherited from Obsidian):
+
+| Type | Aliases |
+|------|---------|
+| `note` | |
+| `abstract` | `summary`, `tldr` |
+| `info` | |
+| `todo` | |
+| `tip` | `hint`, `important` |
+| `success` | `check`, `done` |
+| `question` | `help`, `faq` |
+| `warning` | `caution`, `attention` |
+| `failure` | `fail`, `missing` |
+| `danger` | `error` |
+| `bug` | |
+| `example` | |
+| `quote` | `cite` |
+
+Each renders with a distinct icon and color. Usage:
+
+```markdown
+> [!warning]
+> Watch out!
+
+> [!tip] Custom Title
+> You can override the title too.
+```
